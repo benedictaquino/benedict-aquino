@@ -4,6 +4,6 @@ This is the repo for my personal website to showcase select projects. The websit
 [here]: http://benedictaquino.com/
 
 ### Tools Used
-- [AWS] (https://aws.amazon.com/)
-- [Flask] (http://flask.pocoo.org/)
-- [Dash] (https://plot.ly/products/dash/)
+- [AWS](https://aws.amazon.com/)
+- [Flask](http://flask.pocoo.org/)
+- [Dash](https://plot.ly/products/dash/)
