@@ -41,10 +41,16 @@ def mapping_the_clutch_gene():
 
 app = dash.Dash(__name__, server=server)
 
+app.config.suppress_callback_exceptions = True
+
 weeks = ['AVG'] + list(range(1,18))
 
 app.layout = html.Div(children=[
     dcc.Location(id='url', refresh=False),
+    html.Div(id='page-content')
+])
+
+clutch_layout = html.Div(children=[
     html.Div([
         html.Div([
             dcc.Dropdown(
@@ -100,6 +106,16 @@ app.layout = html.Div(children=[
 @server.route("/complex")
 def nfl_complex():
     return app.index()
+
+@app.callback(
+    dash.dependencies.Output('page-content', 'children'),
+    [dash.dependencies.Input('url','pathname')]
+)
+def display_page(pathname):
+    if pathname == '/complex':
+        return clutch_layout
+    else:
+        return '404 Error!'
 
 @app.callback(
     dash.dependencies.Output('complex', 'figure'),
