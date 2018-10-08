@@ -12,7 +12,7 @@ import plotly.plotly as py
 import json
 import numpy as np
 import pymongo
-from src.data_pipeline import query_avg, query_week
+from src.data_pipeline import engine, query_avg, query_week
 
 server = Flask(__name__)
 
