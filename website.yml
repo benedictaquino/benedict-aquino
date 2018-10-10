@@ -10,7 +10,10 @@ dependencies:
   - dash-html-components=0.13.2=py_0
   - dash-renderer=0.14.1=py_0
   - flask-compress=1.4.0=py_0
+  - krb5=1.16.1=hbb41f41_0
+  - libpq=10.5=he29860b_0
   - openssl=1.0.2p=h470a237_0
+  - psycopg2=2.7.5=py37hdffb7b8_2
   - asn1crypto=0.24.0=py37_0
   - blas=1.0=mkl
   - cffi=1.11.5=py37he75722e_1
