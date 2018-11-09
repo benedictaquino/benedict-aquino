@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block bodyclass %}
+<body class="presentation-page sidebar-collapse">
+{% endblock bodyclass %}
+{% block content %}
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('static/assets/img/MnistExamples.png');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <div class="brand">
+                    <h1>Topological Classification</h1>
+                    <h3>WORK IN PROGRESS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main main-raised">
+    <div class="section section-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ml-auto mr-auto">
+                    <div class="card card-plain">
+                        <div class="card-header card-header-text card-header-primary text-center">
+                            <h3 class="card-title">Project Description</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted">
+                                A more in-depth explanation of this project and technical details are available on my 
+                                <a href="https://github.com/benedictaquino/tda-numbers">GitHub repository</a>.
+                            </p>
+                            <h5>
+                                A replication of the topological data analysis methods used on the MNIST dataset as seen in the paper
+                                <a href="http://intlpress.com/site/pub/files/_fulltext/journals/hha/2016/0018/0001/HHA-2016-0018-0001-a021.pdf">
+                                The Ring of Algebraic Functions on Persistence Bar Codes</a> by Adcock et al.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
