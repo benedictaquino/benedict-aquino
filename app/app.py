@@ -35,9 +35,9 @@ def mapping_the_clutch_gene():
                            positions=positions,
                            weeks=list(range(1,18)))
 
-@server.route("/tda-numbers")
-def tda_numbers():
-    return render_template("tda_numbers.html")
+@server.route("/tda-classification")
+def tda_classification():
+    return render_template("tda_classification.html")
 
 app = dash.Dash(__name__, server=server)
 
