@@ -3,13 +3,12 @@ This is the repo for my personal website to showcase select projects. The websit
 
 [here]: http://benedictaquino.com/
 
-### Tools Used
+### Primary Tools Used
 - [Amazon Web Services](https://aws.amazon.com/)
     - [Amazon EC2](https://aws.amazon.com/ec2/)
     - [Amazon RDS](https://aws.amazon.com/rds/)
     - [Amazon Route 53](https://aws.amazon.com/route53/)
 - [Flask](http://flask.pocoo.org/)
-- [Dash](https://plot.ly/products/dash/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Bootstrap](https://getbootstrap.com/)

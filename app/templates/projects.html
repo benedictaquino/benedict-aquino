@@ -27,10 +27,10 @@
                                 <div class="nav-tabs-wrapper">
                                     <ul class="nav nav-tabs" data-tabs="tabs">
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#mapping-the-clutch-gene" data-toggle="tab">Mapping the Clutch Gene</a>
+                                            <a class="nav-link active" href="#tda-classification" data-toggle="tab">Topological Classification</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#tda-classification" data-toggle="tab">Topological Classification</a>
+                                            <a class="nav-link" href="#tbd" data-toggle="tab">TBD</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -38,29 +38,7 @@
                         </div>
                         <div class="card-body">
                             <div class="tab-content text-center">
-                                <div class="tab-pane active" id="mapping-the-clutch-gene">
-                                    <h2>
-                                        <a href="{{ url_for('mapping_the_clutch_gene') }}">Mapping the Clutch Gene</a>
-                                    </h2>
-                                    <h5>
-                                        A Topological Data Analysis of NFL Fantasy Football
-                                    </h5>
-                                    <p>
-                                        The goal of this project is to utilize computational topology to understand the structure of a high-dimensional
-                                        data set in an effort to overcome the curse of dimensionality. The most obvious issue with high dimensionality
-                                        is that visualization becomes difficult. Another issue with high dimensionality is that the concept of distance
-                                        loses meaning as the number of dimensions grow, so clustering becomes difficult. My goal was to construct
-                                        simplicial complices that represented the data in order to tackle these problems.
-                                    </p>
-                                    <a href="{{ url_for('mapping_the_clutch_gene') }}" class="btn btn-info btn-round btn-lg" role="button">
-                                        View Project
-                                    </a>
-                                    <p class="text-muted">
-                                        A more in-depth explanation of this project and technical details are available on my 
-                                        <a href="https://github.com/benedictaquino/mapping-the-clutch-gene">GitHub repository</a>.
-                                    </p>
-                                </div>
-                                <div class="tab-pane" id="tda-classification">
+                                <div class="tab-pane active" id="tda-classification">
                                     <h2>
                                         <a href="{{ url_for('tda_classification') }}">Topological Classification*</a>
                                     </h2>
@@ -76,6 +54,22 @@
                                     <p class="text-muted">
                                         A more in-depth explanation of this project and technical details are available on my
                                         <a href="https://github.com/benedictaquino/tda-classification">GitHub repository</a>
+                                    </p>
+                                </div>
+                                <div class="tab-pane" id="tbd">
+                                    <h2>
+                                        <a>TBD</a>
+                                    </h2>
+                                    <h5>
+                                        *Work in Progress
+                                    </h5>
+                                    <p>
+                                        My next project will tackle the debilitating TBD.
+                                    </p>
+                                        <a class="btn btn-info btn-round btn-lg" role="button">View Project</a>
+                                    <p class="text-muted">
+                                        A more in-depth explanation of this project and technical details are available on my 
+                                        <a>GitHub repository</a>.
                                     </p>
                                 </div>
                             </div>
